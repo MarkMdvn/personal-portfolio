@@ -1,4 +1,4 @@
-const logotext = "JOHN";
+const logotext = "MARK";
 const meta = {
   title: "Mark Mordvin",
   description:
@@ -15,7 +15,7 @@ const introdata = {
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
   your_img_url:
-    "https://e1.pxfuel.com/desktop-wallpaper/582/545/desktop-wallpaper-50-dark-forest-aesthetic-green-forest.jpg",
+    "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
 
 const dataabout = {
@@ -171,10 +171,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
-  twitter: "https://twitter.com",
+  github: "https://github.com/MarkMdvn",
+  linkedin: "www.linkedin.com/in/markmdvn",
+  cv: "https://download cv",
 };
 export {
   meta,

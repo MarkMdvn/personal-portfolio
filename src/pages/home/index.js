@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import { Portfolio } from "../portfolio";
 
 export const Home = () => {
   return (
@@ -61,6 +62,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
+      <Portfolio />
     </HelmetProvider>
   );
 };
