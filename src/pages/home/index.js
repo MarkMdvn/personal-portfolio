@@ -5,6 +5,8 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import { Portfolio } from "../portfolio";
+import { About } from "../about";
+import { ContactUs } from "../contact";
 
 export const Home = () => {
   return (
@@ -63,6 +65,8 @@ export const Home = () => {
         </div>
       </section>
       <Portfolio />
+      <About />
+      <ContactUs />
     </HelmetProvider>
   );
 };
