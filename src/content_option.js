@@ -12,7 +12,7 @@ const introdata = {
     third: "Trying to get a job",
   },
   description:
-    "More than 2 years working on fullstack web applications with technologies like React, SpringBoot and more!",
+    "More than 2 years working on fullstack web applications, check my projects to see what I can do!",
   your_img_url:
     "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
@@ -108,8 +108,8 @@ const contactConfig = {
 
 const socialprofils = {
   github: "https://github.com/MarkMdvn",
-  linkedin: "www.linkedin.com/in/markmdvn",
-  cv: "https://download cv",
+  linkedin: "https://www.linkedin.com/in/markmdvn",
+  cv: "https://drive.google.com/file/d/19HfwOx1k5npjJbSv9WDHIb20LwLlf_aT/view?usp=drive_link",
 };
 export {
   meta,
