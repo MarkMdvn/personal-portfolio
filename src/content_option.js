@@ -1,4 +1,4 @@
-const logotext = "MARK";
+const logotext = "M A R K";
 const meta = {
   title: "Mark Mordvin",
   description: "I'm Mark Mordvin, a fullstack developer working in Madrid",
@@ -18,7 +18,7 @@ const introdata = {
 };
 
 const dataabout = {
-  title: "abit about my self",
+  title: "About me",
   aboutme:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
@@ -84,12 +84,14 @@ const services = [
 const dataportfolio = [
   {
     img: "https://raw.githubusercontent.com/MarkMdvn/uallapop/main/WallapopClient/public/github-images/main-img.png",
-    description: "Completely working clone of the famoust Wallapop website",
+    description:
+      "This project is a fully working full-stack clone of Wallapop, built with Spring Boot, React, and MySQL. \nIt has key features like user authentication, item listings, and a simple messaging system, all while ensuring a responsive and intuitive user experience.",
     link: "https://github.com/MarkMdvn/uallapop",
   },
   {
     img: "https://raw.githubusercontent.com/MarkMdvn/FarHouse/main/Hotel-Project-Frontend/public/readme-images/1-Main-Homepage.png",
-    description: "Fullstack web application for hotel managment.",
+    description:
+      "Fullstack hotel-managment webapp. It features functionality for user account creation, room reservations, and includes a robust admin panel for streamlined backend management.",
     link: "https://github.com/MarkMdvn/FarHouse",
   },
 ];

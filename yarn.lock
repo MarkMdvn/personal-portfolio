@@ -10846,6 +10846,11 @@ tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0:
   resolved "https://registry.npmjs.org/tapable/-/tapable-2.2.1.tgz"
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
 
+tech-stack-icons@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/tech-stack-icons/-/tech-stack-icons-2.0.3.tgz#5c3426c1eeb00d9d67caf3e0bf6ceccf3f9d8d42"
+  integrity sha512-dpLPTP+suf+6s5aqnWH+0HQmq94L9Y2gf+rP5paNvGDTrgROKF47Ec4eF+MXueQFqHuXZZKinsTGf9/6ZLvnPQ==
+
 temp-dir@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/temp-dir/-/temp-dir-2.0.0.tgz"
