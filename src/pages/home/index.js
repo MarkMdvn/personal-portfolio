@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
@@ -9,6 +9,12 @@ import { About } from "../about";
 import { ContactUs } from "../contact";
 
 export const Home = () => {
+  const portfolioRef = useRef(null);
+
+  const scrollToPortfolio = () => {
+    portfolioRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -42,14 +48,15 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </Link>
+                  <button
+                    onClick={scrollToPortfolio}
+                    className="text_2 ac_btn btn"
+                  >
+                    My Projects
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </button>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
                       Contact Me
@@ -64,7 +71,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <Portfolio />
+      <div ref={portfolioRef} className="portfolio"></div> <Portfolio />
       <About />
       <ContactUs />
     </HelmetProvider>

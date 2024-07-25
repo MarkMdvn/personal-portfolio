@@ -32,7 +32,8 @@ const techStackIcons = [
     src: IntelliJIcon,
     alt: "IntelliJ IDEA",
     label: "Backend",
-    description: "IDE for Java development",
+    description:
+      "I've been using the paid version of this IDE through out my whole journey as programmer so I'm pretty agile with it",
   },
   {
     src: SpringIcon,
@@ -165,18 +166,14 @@ export const About = () => {
             <Col
               key={section}
               lg={index === 0 ? "4" : "3"}
-              className={`tech-stack-section ${
-                visibleSection === section ? "expanded" : ""
-              }`}
+              className="tech-stack-section"
               onClick={() => toggleSection(section)}
             >
               <h3 className="color_sec tech-stack-title">
                 <small>{section}</small>
               </h3>
               <div
-                className={`tech-stack-icons ${
-                  visibleSection === section ? "visible" : ""
-                }`}
+                className="tech-stack-icons"
                 style={{ display: "flex", flexWrap: "wrap" }}
               >
                 {techStackIcons
@@ -188,13 +185,43 @@ export const About = () => {
                         alt={icon.alt}
                         className="tech-stack-icon"
                       />
-                      <span className="tech-stack-icon-text"></span>
                     </div>
                   ))}
               </div>
             </Col>
           ))}
         </Row>
+        {visibleSection && (
+          <div className="tech-stack-popup">
+            <div className="tech-stack-popup-content">
+              <button
+                className="tech-stack-popup-close"
+                onClick={() => toggleSection(null)}
+              >
+                &times;
+              </button>
+              <h3 className="color_sec tech-stack-title">
+                <small>{visibleSection}</small>
+              </h3>
+              <div className="tech-stack-icons visible">
+                {techStackIcons
+                  .filter((icon) => icon.label === visibleSection)
+                  .map((icon) => (
+                    <div className="tech-stack-icon-container" key={icon.src}>
+                      <img
+                        src={icon.src}
+                        alt={icon.alt}
+                        className="tech-stack-icon"
+                      />
+                      <span className="tech-stack-icon-text">
+                        {icon.description}
+                      </span>
+                    </div>
+                  ))}
+              </div>
+            </div>
+          </div>
+        )}
         <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">Services</h3>
