@@ -26,13 +26,34 @@
 .tech-stack-popup-content {
   background: var(--primary-color);
   padding: 20px;
-  position: relative;
   border: 1px solid white;
-  max-width: 59%;
+  width: 90%; /* Responsive width */
+  max-width: 1000px; /* Max width to control on larger screens */
+  height: auto;
+  max-height: 80vh; /* Adjust based on viewport height */
+  overflow-y: auto; /* Enables scrolling */
+  position: relative;
   margin-top: 70px;
-  width: 90%;
-  transform: translateY(-50px);
-  animation: popIn 0.5s ease-out forwards;
+  transform: translateY(-50%);
+  animation: popIn 0.3s ease-out forwards;
+}
+
+/* Styling the scrollbar for tech-stack-popup-content */
+.tech-stack-popup-content::-webkit-scrollbar {
+  width: 8px; /* Thinner scrollbar */
+  height: 8px; /* For horizontal scrollbars, if applicable */
+}
+
+.tech-stack-popup-content::-webkit-scrollbar-track {
+  background: var(--primary-color); /* Light grey track */
+}
+
+.tech-stack-popup-content::-webkit-scrollbar-thumb {
+  background: darkgray; /* Dark scrollbar thumb */
+}
+
+.tech-stack-popup-content::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Slightly lighter scroll thumb on hover */
 }
 
 @keyframes popIn {
@@ -49,9 +70,9 @@
 /* Close button */
 .tech-stack-popup-close {
   position: absolute;
-  color: var(--secondary-color);
   top: 10px;
   right: 10px;
+  color: var(--secondary-color);
   background: none;
   border: none;
   font-size: 24px;
@@ -59,7 +80,7 @@
 }
 
 .sec_sp {
-  margin-bottom: calc(3rem + 3.128vw);
+  margin-bottom: calc(3rem + 2.128vw);
 }
 
 .table td,
@@ -159,12 +180,13 @@
 
 .tech-stack-icons.visible {
   flex-direction: column;
+  scrollbar-width: 10;
 }
 
 .tech-stack-icon-container {
   display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
+  gap: 10px;
 }
 
 .tech-stack-icon {

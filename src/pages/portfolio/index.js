@@ -4,7 +4,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
 import { FaGithub } from "react-icons/fa";
-import StackIcon from "tech-stack-icons";
 
 export const Portfolio = () => {
   return (
@@ -17,7 +16,7 @@ export const Portfolio = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Projects</h1>
+            <h1 className="display-4 mb-4">Proyectos</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -40,7 +39,7 @@ export const Portfolio = () => {
                     <FaGithub />
                     GitHub Link
                   </a>
-                  <a href={data.link}>View Project</a>
+                  <a href={data.link}>Demo funcional</a>
                 </div>
               </div>
             </div>

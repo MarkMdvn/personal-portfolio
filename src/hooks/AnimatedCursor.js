@@ -84,8 +84,8 @@ function useEventListener(eventName, handler, element = document) {
  * @param {object} outerStyle - style object for outer cursor
  * @param {object} innerStyle - style object for inner cursor
  * @param {array}  clickables - array of clickable selectors
- *
  */
+
 function CursorCore({
   outerStyle,
   innerStyle,

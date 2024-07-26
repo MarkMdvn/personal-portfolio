@@ -5,63 +5,25 @@ const meta = {
 };
 
 const introdata = {
-  title: "I’m Mark Mordvin",
+  title: "Mark Mordvin",
   animated: {
-    first: "Full-Stack Developer",
-    second: "Linux enthusiast",
-    third: "Trying to get a job",
+    first: "Desarrollador backend",
+    second: "Entusiasta de Linux",
+    third: "ciberseguridad",
   },
   description:
-    "More than 2 years working on fullstack web applications, check my projects to see what I can do!",
+    "Desarrollador backend con dos años de trayectoria. Comprueba mis proyectos para ver lo que puedo hacer!",
   your_img_url:
     "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
 
 const dataabout = {
-  title: "About me",
-  aboutme:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+  title: "Sobre mí",
+  aboutme: `Soy un desarrollador backend con más de un año dedicado al desarrollo independiente, complementado con sólidos conocimientos en frontend y DevOps. Mis proyectos no solo reflejan una amplia gama de habilidades técnicas, sino también mi capacidad para convertir ideas en soluciones funcionales y eficientes.\n\nTengo una profunda fascinación por el mundo de la informática, especialmente por la programación y la ciberseguridad, áreas que considero cruciales en nuestra era digital. Sigo desarrollando proyectos por mi cuenta, aprendiendo todos los días y manteniéndome activamente involucrado en el mundo del software, lo que me permite estar siempre al día con las últimas tendencias y tecnologías.`,
 };
-const worktimeline = [
-  {
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
-  },
-  {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
-  },
-  {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
-  },
-];
+const worktimeline = [];
 
-const skills = [
-  {
-    name: "Python",
-    value: 90,
-  },
-  {
-    name: "Djano",
-    value: 85,
-  },
-  {
-    name: "Javascript",
-    value: 80,
-  },
-  {
-    name: "React",
-    value: 60,
-  },
-  {
-    name: "Jquery",
-    value: 85,
-  },
-];
+const skills = [];
 
 const services = [
   {
@@ -85,13 +47,13 @@ const dataportfolio = [
   {
     img: "https://raw.githubusercontent.com/MarkMdvn/uallapop/main/WallapopClient/public/github-images/main-img.png",
     description:
-      "This project is a fully working full-stack clone of Wallapop, built with Spring Boot, React, and MySQL. \nIt has key features like user authentication, item listings, and a simple messaging system, all while ensuring a responsive and intuitive user experience.",
+      "Este proyecto es un clon completo y funcional de Wallapop, creado con Spring Boot, React y MySQL. \nIncluye funcionalidades como autenticación de usuarios, un listado de artículos dinámico con múltiples categorías, además de búsqueda integrada con opciones de filtrado y un sistema de mensajería sencillo. Pruébalo ;)",
     link: "https://github.com/MarkMdvn/uallapop",
   },
   {
     img: "https://raw.githubusercontent.com/MarkMdvn/FarHouse/main/Hotel-Project-Frontend/public/readme-images/1-Main-Homepage.png",
     description:
-      "Fullstack hotel-managment webapp. It features functionality for user account creation, room reservations, and includes a robust admin panel for streamlined backend management.",
+      "Aplicación web de gestión hotelera full-stack. Permite crear cuentas de usuario, hacer reservas de habitaciones y cuenta con un panel de administración. \nEntre las funcionalidades se incluyen uso de JWT para la seguridad, creación de habitaciones desde el panel de admin, y la gestión de reservas, etc.",
     link: "https://github.com/MarkMdvn/FarHouse",
   },
 ];
@@ -99,7 +61,7 @@ const dataportfolio = [
 const contactConfig = {
   YOUR_EMAIL: "mark.mdvn@gmail.com",
   description:
-    "I think that sending a LinkedIn message is faster but if you prefer to use this, there you go! ",
+    "Creo que mandar un mensaje por LinkedIn es más rápido, pero si prefieres usar esto, aquí lo tienes! ",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "service_id",
@@ -112,6 +74,8 @@ const socialprofils = {
   linkedin: "https://www.linkedin.com/in/markmdvn",
   cv: "https://drive.google.com/file/d/19HfwOx1k5npjJbSv9WDHIb20LwLlf_aT/view?usp=drive_link",
 };
+
+const techStack = {};
 export {
   meta,
   dataabout,

@@ -52,14 +52,14 @@ export const Home = () => {
                     onClick={scrollToPortfolio}
                     className="text_2 ac_btn btn"
                   >
-                    My Projects
+                    Mis proyectos
                     <div className="ring one"></div>
                     <div className="ring two"></div>
                     <div className="ring three"></div>
                   </button>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      CV
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
