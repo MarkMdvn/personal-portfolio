@@ -27,19 +27,19 @@ const skills = [];
 
 const services = [
   {
-    title: "UI & UX Design",
+    title: "Backend",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Me especializo en el desarrollo backend, trabajando con Java y un amplio rango de tecnologías necesarias para crear aplicaciones robustas y escalables. Mis proyectos demuestran mi experiencia, destacando la creación de APIs REST y en la interacción avanzada con bases de datos. Tengo competencia en la implementación de soluciones de seguridad como autenticación y autorización, así como en la integración y manejo eficiente de servicios en la nube y herramientas DevOps para optimizar el despliegue y la operatividad de los proyectos.",
   },
   {
-    title: "Mobile Apps",
+    title: "Frontend",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Aunque no sea mi especialidad, me muevo con bastante soltura en el mundo del frontend, manejando HTML, CSS, Bootstrap, JavaScript y React para crear  interfaces de usuario atractivas y funcionales. Mis proyectos reflejan mis habilidades en integrar APIs y crear experiencias de usuario fluidas.",
   },
   {
-    title: "Wordpress Design",
+    title: "Conocimientos adicionales",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Además de mis habilidades en el desarrollo, poseo un amplio conocimiento en hardware, servidores, cloud y networking. He completado cursos como CompTIA A+, CompTIA Linux+ y CCNA. Tengo formación en  Python y Bash. Estos conocimientos los conseguí por curiosidad e interés propio, pero me han ayudado en muchas ocasiones.",
   },
 ];
 
