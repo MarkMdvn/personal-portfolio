@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
+import { introdata, meta, socialprofils } from "../../content_option";
 import { Link } from "react-router-dom";
 import { Portfolio } from "../portfolio";
 import { About } from "../about";
@@ -57,14 +57,14 @@ export const Home = () => {
                     <div className="ring two"></div>
                     <div className="ring three"></div>
                   </button>
-                  <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
+                  <div id="button_h" className="ac_btn btn">
+                    <a href={socialprofils.cv} target="_blank">
                       CV
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </Link>
+                    </a>
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </div>
                 </div>
               </div>
             </div>

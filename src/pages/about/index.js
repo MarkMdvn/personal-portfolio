@@ -182,14 +182,14 @@ export const About = () => {
             <Col
               key={section}
               lg={index === 0 ? "4" : "3"}
-              className="tech-stack-section"
+              className="tech-stack-section pers-card1"
               onClick={() => toggleSection(section)}
             >
               <h3 className="color_sec tech-stack-title">
                 <small>{section}</small>
               </h3>
               <div
-                className="tech-stack-icons"
+                className="tech-stack-icons "
                 style={{ display: "flex", flexWrap: "wrap" }}
               >
                 {techStackIcons

@@ -64,9 +64,9 @@ const contactConfig = {
     "Creo que mandar un mensaje por LinkedIn es más rápido, pero si prefieres usar esto, aquí lo tienes! ",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: "service_i769wkd",
+  YOUR_TEMPLATE_ID: "template_zp7r3da",
+  YOUR_USER_ID: "ECNXpdxd1lLpl1gCi",
 };
 
 const socialprofils = {

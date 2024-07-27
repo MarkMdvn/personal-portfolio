@@ -158,8 +158,9 @@
 }
 
 .tech-stack-section:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   border-width: 1px;
+  border-radius: 7px;
 }
 
 .tech-stack-icon {
